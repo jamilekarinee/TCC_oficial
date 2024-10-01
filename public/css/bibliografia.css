@@ -1,0 +1,30 @@
+
+:root{
+    --cor_body: #002A62; 
+}
+
+a{
+    color: white; 
+}
+body {
+    color: white;
+    background-color: var(--cor_body);
+}
+
+.texto_body_titulo{
+    color: white;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.texto_body_texto{
+    color: white;
+    font-family: "Libre Franklin", Arial, Helvetica, sans-serif; 
+    margin-bottom: 10px;
+} 
+.voltar_pag_inicial{
+    font-family: 'Courier Prime', Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    margin-left: 20px;
+}
