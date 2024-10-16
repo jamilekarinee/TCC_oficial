@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aprendaTS - Let e Const</title>
+    <link rel="stylesheet" href="../../CSS/ASSUNTOS/string.css">
+    <!-- Google Fonts : -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Gabarito&family=Lato&family=Lumanosimo&family=Poppins:ital,wght@0,100;0,300;0,400;1,300&family=Ysabeau+SC:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Icons : -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Bootstrap : -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="cabecalho__detalhes">
+            <a href="../../index.html" class="redirecionar_pag_inicial">
+                <p class="nome_site_aprenda">aprenda</p>
+                <h1 class="nome_site_ts">TypeScript</h1>
+            </a>
+        </div>
+
+        <!-- Menu -->
+        <nav>
+            <center>
+                <div class="container">
+                    <ul>
+                        <li class="lista_do_cabecalho">
+                            <i class="material-icons icon_cabecalho">menu</i>
+                            <div class="topicos">
+                                <a href="./string.html">String</a>
+                                <a href="./number.html">Number</a>
+                                <a href="./boolean.html">Boolean</a>
+                                <a href="./array.html">Array</a>
+                                <a href="./class.html">Classe</a>
+                                <a href="./if_e_else.html">If, Else e Else if</a>
+                                <a href="./let_e_const.html">Let e Const</a>
+                                <a href="./igual_e_dois_pontos.html">"=" e ":"</a>
+                                <a href="">Function</a>
+                            </div>
+                    </ul>
+                </div>
+            </center>
+        </nav>
+        <!-- Fim Menu -->
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <p class="texto_body_titulo"><strong>Diferença entre Let e Const</strong></p>
+    <!-- Let -->
+    <ul>
+        <li>
+            <p class="texto_body_titulo"><strong>Let</strong></p>
+        </li>
+    </ul>
+    <p class="texto_body_texto">O let permite que você declare uma variável com escopo de bloco, o que significa que ela
+        é <strong>acessível apenas dentro do bloco onde foi declarada</strong>.Uma variável declarada com let pode ser
+        reatribuída a um
+        novo valor dentro do mesmo escopo. Ele não permite a redeclaração de variáveis no mesmo escopo. <strong>Tentar
+            redeclarar uma variável resultará em um erro de sintaxe.</strong>
+    </p>
+    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_1.png">
+    </br>
+    <p class="texto_body_texto">aneira correta de declarar variável usando let:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_2.png">
+
+    <!-- Const -->
+    <ul>
+        <li>
+            <p class="texto_body_titulo"><strong>Const</strong></p>
+        </li>
+    </ul>
+    <p class="texto_body_texto">O const permite que você declare uma variável com escopo de bloco. Uma variável
+        declarada com const deve ser inicializada com um valor ao ser declarada e não pode ser reatribuída a um novo
+        valor posteriormente. Similar ao Let, const não permite a redeclaração de variáveis no mesmo escopo.</strong>
+    </p>
+    <p class="texto_body_texto">Mostrando isso na prática:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_3.png">
+    </br>
+    <p class="texto_body_texto">Maneira correta de declarar variável usando const:</p>
+    </br>
+    <img class="img-fluid imagens_dos_codigos" src="../../IMAGES/ASSUNTOS/LET E CONST/let_e_const_4.png">
+
+    <p class="texto_body_texto">Então, em resumo:
+        Use let quando você precisa de uma variável que pode ter seu valor reatribuído e const quando você precisa de
+        uma variável que não será reatribuída após a inicialização.
+    </p>
+    </br>
+    </br>
+    </br>
+    <p class="voltar_pag_inicial">
+        <a href="../../index.html">Voltar para a página inicial</a>
+    </p>
+
+    <!-- Rodapé -->
+    <footer class="main-footer">
+        <div class="div1_rodape">
+            <img src="../../IMAGES/rodape.png" class="img_rodape img-fluid">
+            <p class="texto_body_texto">© 2024 AprendaTypeScript.com</p>
+        </div>
+        <div class="div2_rodape">
+            <p><a href="../../HTML/bibliografia.html" class="texto_body_texto">Bibliografia</a></p>
+            <p><a href="../../HTML/sobre.html" class="texto_body_texto">Sobre</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

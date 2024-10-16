@@ -24,7 +24,7 @@ router.post('/add', function (req, res) {
   let cmd = 'INSERT INTO tb_avaliacao (email_avaliacao, nome_avaliacao) VALUES (?, ?) ';
   let email = req.body.email;
   let avaliacao_do_cliente = req.body.avaliacao_do_cliente;
-  if(avaliacao_do_cliente!=null && avaliacao_do_cliente.length!=0){ /* email cliente */ 
+  if((email!=null && email.length!=0) && (avaliacao_do_cliente!=null && avaliacao_do_cliente.length!=0)){ 
     db.query(cmd, [email, avaliacao_do_cliente], function (erro) {
       if (erro) {
         res.send(erro);

@@ -1,0 +1,5 @@
+CREATE TABLE `tb_avaliacao` (
+  `id_avaliacao` integer AUTO_INCREMENT PRIMARY KEY  not null,
+  `email_avaliacao` varchar(256) not null,
+  `nome_avaliacao` varchar(1000) not null
+);
