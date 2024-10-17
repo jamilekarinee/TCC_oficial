@@ -16,7 +16,7 @@ router.get('/listagem_privada', function (req, res) {
 
 /* adicionar AVALIACOES */
 router.get('/add', function (req, res) { /* post vai incluir algo */
-  res.render('avaliacoes', { resultado: {} });
+  res.render('faleconosco', { resultado: {} });
 }); 
 
 /* adicionar AVALIACOES */
@@ -29,11 +29,11 @@ router.post('/add', function (req, res) {
       if (erro) {
         res.send(erro);
       }
-      res.redirect('/avaliacoes/add');
+      res.redirect('/ARQUIVOS_EJS/faleconosco');
     })  
   }
   else{
-    res.send("String não pode ser vazia"); 
+    res.send("Os campos email e avaliação não podem ser vazios."); 
   }
 });
 
