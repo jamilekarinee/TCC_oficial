@@ -20,16 +20,36 @@ router.get('/ARQUIVOS_EJS/sobre', (req, res) => {
 
 // ASSUNTOS 
   // ARRAY 
-  router.get('/ARQUIVOS_EJS/ASSUNTOS/boolean', (req, res) => {
-    res.render('/ARQUIVOS_EJS/ASSUNTOS/boolean'); // not ok  
-  }); 
-  
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/array', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/array'); // OK 
+    }); 
   // BOOLEAN 
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/boolean', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/boolean'); // OK 
+    }); 
   // CLASS
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/class', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/class'); // OK 
+    }); 
   // IF E ELSE 
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/if_e_else', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/if_e_else'); // OK 
+    }); 
   // = E : 
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/igual_e_dois_pontos', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/igual_e_dois_pontos'); // OK 
+    }); 
   // LET E CONST 
-  // NUMBER
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/let_e_const', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/let_e_const'); // OK 
+    }); 
+  // NUMBER 
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/number', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/number'); // OK 
+    }); 
   // STRING 
+  router.get('/ARQUIVOS_EJS/ASSUNTOS/string', (req, res) => {
+    res.render('ARQUIVOS_EJS/ASSUNTOS/string'); // OK 
+    }); 
 
 module.exports = router; 

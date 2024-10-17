@@ -48,19 +48,22 @@ body {
 }
 .painel1{
     width: 90%; 
-    height: 200px;
+    height: 250px;
     border: none;
     background-color: #004AAD; 
     position: absolute;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
-    padding-top: 10%; 
-    border-radius: 20px;
+    border-radius: 20px; 
+    padding-top: 5px;
+}
+form{
+    padding-top: 10px;
 }
 .lapis_icon{
     position: absolute;
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
-}
+} 
