@@ -128,6 +128,10 @@ nav li a{
     margin-left: 20px; 
     margin-right: 20px; 
     color: white;
+    padding-bottom: 7px;
+} 
+.redirecionar_assuntos{
+    color: white;
 }
 .textos_container{
     display: inline-block;
